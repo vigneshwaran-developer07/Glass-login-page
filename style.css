@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center center/cover;
+}
+
+/* Glass Container */
+.login-box{
+    width:350px;
+    padding:40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius:20px;
+    backdrop-filter: blur(15px);
+    border:1px solid rgba(255,255,255,0.3);
+    color:#fff;
+    text-align:center;
+}
+
+.login-box h2{
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.input-box{
+    position:relative;
+    margin:20px 0;
+}
+
+.input-box input{
+    width:100%;
+    padding:12px 45px 12px 20px;
+    border-radius:30px;
+    border:1px solid rgba(255,255,255,0.5);
+    background:transparent;
+    outline:none;
+    color:white;
+    font-size:14px;
+}
+
+.input-box input::placeholder{
+    color:white;
+}
+
+.input-box i{
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    color:white;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    margin:10px 0 20px;
+}
+
+.options a{
+    color:white;
+    text-decoration:none;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:black;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#ddd;
+}
+
+.register{
+    margin-top:20px;
+    font-size:14px;
+}
+
+.register a{
+    color:black;
+    font-weight:600;
+    text-decoration:none;
+}
